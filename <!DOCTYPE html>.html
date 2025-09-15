@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Russian Trade Policy: A Strategic Assessment</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+   <style>
+       body {
+           font-family: 'Inter', sans-serif;
+           background-color: #f0f2f5;
+       }
+       .chart-container {
+           position: relative;
+           width: 100%;
+           height: 380px;
+           max-height: 400px;
+       }
+       @media (min-width: 768px) {
+           .chart-container {
+               height: 420px;
+           }
+       }
+       .header-bg {
+           background-color: #253959;
+       }
+       .tab-button {
+           border-bottom: 3px solid transparent;
+           transition: border-color 0.3s, color 0.3s;
+       }
+       .tab-button.active {
+           border-color: #9E4734;
+           color: #9E4734;
+           font-weight: bold;
+       }
+       .main-tab-button.active {
+           background-color: #482B34;
+           color: white;
+           font-weight: bold;
+       }
+   </style>
+</head>
+<body class="text-[#253959]">
+
+
+   <header class="header-bg text-white p-4 shadow-lg">
+       <div class="container mx-auto max-w-7xl">
+           <h1 class="text-3xl md:text-4xl font-bold">Russian Trade Policy: A Strategic Assessment</h1>
+           <p class="text-sm md:text-base opacity-80 mt-1">From European Integration to Eurasian Autonomy</p>
+       </div>
+   </header>
+  
+   <main class="container mx-auto max-w-7xl p-4 md:p-8">
+       <section id="executive-summary" class="mb-12">
+           <h2 class="text-2xl md:text-3xl font-bold text-[#482B34] border-b-4 border-[#FFAD69] pb-2 mb-4">Executive Summary</h2>
+           <p class="text-lg text-gray-700">The foreign economic policy of the Russian Federation has undergone a fundamental and irreversible transformation. This report presents a strategic assessment of Russian trade policies, ideology, and investment dynamics across three distinct periods: the pre-invasion framework (circa 2012–February 2022), the post-invasion reorientation (February 2022–2025), and the future strategic outlook (post-2025). The analysis indicates that Russia's pre-2022 trade policy, while deeply integrated with Europe, was underpinned by long-standing geopolitical doctrines that viewed the West as a rival. The 2014 annexation of Crimea acted as a critical accelerant, prompting a strategic reorientation toward the East and the deliberate implementation of a "Fortress Russia" economic strategy. The full-scale invasion of Ukraine in 2022 marked the operationalization of this strategy, triggering an unprecedented sanctions regime from the West and forcing a dramatic, and largely successful, reorientation of Russian trade toward non-Western partners, particularly China, India, and the Global South. While this war-driven economic model has demonstrated surprising short-term resilience, fueled by massive military spending and an astute redirection of export revenues, the analysis reveals significant long-term vulnerabilities. Russia is increasingly exposed to the risks of a structural, asymmetric dependency on China, a phenomenon that challenges its ideological goal of a multipolar world. Domestically, the war economy is showing signs of overheating and technological stagnation, with a looming risk of stagflation as labor shortages and resource misallocation strain the civilian sectors. Looking ahead, Russia's economic trajectory will be defined by its ability to navigate these internal imbalances and its evolving role as a junior partner in a new, China-centric Eurasian order.</p>
+       </section>
+
+
+       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mb-8">
+           <button class="flex-1 text-lg py-2 px-4 rounded-lg shadow-md main-tab-button bg-white text-[#482B34] transition-colors duration-300 active" data-target="pre-invasion">Pre-Invasion (2012-2022)</button>
+           <button class="flex-1 text-lg py-2 px-4 rounded-lg shadow-md main-tab-button bg-white text-[#482B34] transition-colors duration-300" data-target="post-invasion">Post-Invasion (2022-2025)</button>
+           <button class="flex-1 text-lg py-2 px-4 rounded-lg shadow-md main-tab-button bg-white text-[#482B34] transition-colors duration-300" data-target="future-outlook">Future (Post-2025)</button>
+       </div>
+
+
+       <div id="pre-invasion" class="content-section">
+           <div class="flex space-x-4 mb-6 justify-center">
+               <button class="text-lg py-2 px-4 tab-button active" data-category="pre-trade-policies">Trade Policies</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="pre-ideology">Ideology</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="pre-investment">Investment</button>
+           </div>
+          
+           <div id="pre-trade-policies" class="category-content">
+               <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 1.1: Trade Policies: A Period of Entrenchment and Growing Fissures</h3>
+                   <p class="text-sm text-gray-700 mb-6">Before the full-scale invasion of Ukraine, Russia's foreign trade policy was characterized by a deep, albeit strained, interdependence with the European Union. This relationship was legally grounded in the 1997 Partnership and Cooperation Agreement (PCA), an accord that aimed to foster trade and investment and build mutually beneficial economic ties. Russia's accession to the World Trade Organization (WTO) in 2012 further integrated its economy into the global multilateral trading system, raising expectations that trade with Russia would benefit from sustained liberalization and enhanced transparency. Until February 2022, the European Union stood as Russia's most significant trade partner. EU exports to Russia in 2021 reached a total of €99.0 billion, a figure led by high-value product groups such as chemicals, food and raw materials, and machinery and transport equipment. Russia, in turn, was a critical supplier of energy resources to the EU, providing approximately 40% of the bloc's natural gas and a significant volume of its oil in 2021. This asymmetric dependency on Russia for energy created a structural vulnerability for Europe, which Moscow had spent years cultivating through long-term contracts and state-backed infrastructure projects like Nord Stream 1 and 2. The foundational premise of this relationship was critically challenged following the 2014 illegal annexation of Crimea and Russia's destabilizing actions in eastern Ukraine. While the EU-Russia political and economic relations remained formally intact under the PCA, they were "seriously affected" by the new reality. The subsequent imposition of Western sanctions, which targeted the Russian oil and gas sector, did not result in an immediate economic collapse but began to have a discernible, long-term impact on the development of new oil and gas fields due to a lack of specialized Western technology and services. In parallel to its strained relationship with the West, Russia was actively pursuing its own regional integration efforts. The Customs Union with Kazakhstan and Belarus, established in 2010, was formalized into the Eurasian Economic Union (EAEU) in 2015 with the addition of Armenia and Kyrgyzstan. With Russia representing nearly 90% of the bloc's GDP, the EAEU provided a platform for economic coordination and a potential counterweight to Western trade blocs.</p>
+                   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                       <div class="flex flex-col items-center">
+                           <h4 class="text-xl font-semibold mb-4 text-[#253959]">Russian Exports by Destination, 2021</h4>
+                           <p class="text-sm text-gray-600 text-center mb-4">The European Union was Russia's most critical export market, highlighting its deep, yet fragile, economic ties to the West.</p>
+                           <div class="chart-container w-full max-w-xl mx-auto">
+                               <canvas id="preWarExportShareChart"></canvas>
+                           </div>
+                       </div>
+                       <div class="flex flex-col items-center">
+                           <h4 class="text-xl font-semibold mb-4 text-[#253959]">Composition of Russian Imports, 2021</h4>
+                           <p class="text-sm text-gray-600 text-center mb-4">Machinery, transport, and technology from Europe dominated imports, a reliance that would later prove to be a major vulnerability.</p>
+                           <div class="chart-container w-full max-w-xl mx-auto">
+                               <canvas id="preWarImportCategoryChart"></canvas>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+          
+           <div id="pre-ideology" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 1.2: Ideological Underpinnings: From European Integration to Power Projection</h3>
+                   <p class="text-sm text-gray-700 mb-6">The shifts in Russia's trade policies were not merely reactive but were driven by a coherent and long-standing ideological vision. The strategic direction of Russian foreign policy, particularly since the late 1990s, was profoundly shaped by the Primakov doctrine. Named after former Foreign Minister Yevgeny Primakov, this doctrine is founded on the principle that Russia's national security is inextricably linked to its superpower status. It assumes that Russia cannot permit the formation of a unipolar international order dominated by the United States. The doctrine advocates for the creation of a multipolar world, guided by a concert of major powers, and identifies a strategic partnership with China and India as a cornerstone of this vision, a concept that would later give rise to the BRICS group. Another key ideological pillar guiding Russia's pre-2022 foreign policy was the Falin-Kvitsinsky doctrine. Formulated during the final years of the Soviet Union, this doctrine posits that the USSR's military influence over former Warsaw Pact countries should be replaced by their economic dependence on Russian energy resources. In practice, this doctrine transformed energy from a mere commodity into a geopolitical instrument. Russia used its control over vast oil and gas reserves to create asymmetric dependencies, leveraging a system of long-term contracts and direct pipelines like Nord Stream 1 and the planned Nord Stream 2 to exert political pressure on Europe. This strategy was exemplified by winter gas cut-offs to Ukraine in 2006 and 2009 and the imposition of preferential pricing on politically aligned partners like Belarus. The strategic and ideological friction with the West, coupled with the long-term vision of a multipolar world, led to Russia's official "Pivot to the East" in 2012. This policy was not a spontaneous reaction to Western sanctions but a geostrategic and geo-economic initiative designed to secure new sources of economic growth, technology, and energy markets in Asia. The execution of this pivot involved major infrastructure projects, most notably the Eastern Siberia-Pacific Ocean (ESPO) pipeline, which was financed with a $25 billion loan from China to facilitate crude oil exports to the People’s Republic. The 2014 annexation of Crimea, while not the cause of this policy, served as a powerful accelerant, prompting Russia to implement the "Fortress Russia" economic policy of accumulating massive foreign exchange reserves and deleveraging to insulate the economy from future shocks. Thus, the initial sanctions did not fundamentally change Russia's direction but catalyzed a shift that was already underway, driven by a long-term ideological vision of rivalry with the West.</p>
+                </div>
+           </div>
+          
+           <div id="pre-investment" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 1.3: Investment Dynamics and Sectoral Concentration</h3>
+                   <p class="text-sm text-gray-700 mb-6">Before 2022, the structure of foreign investment in Russia reflected a high concentration in the extractive and natural resource sectors, with a notable decline following the geopolitical shifts of 2014. The data from CEIC indicates that Russia’s Foreign Direct Investment (FDI) net flows reached an all-time high of 40.1 billion US dollars in March 2013. However, the economic landscape shifted after 2014, and by 2021, the inward FDI stock had fallen to 38 billion US dollars, a figure that disguised a significant decline in new investments. This trend underscored a growing wariness among foreign investors about the country's political risk and the tightening of Western sanctions, which particularly targeted the oil and gas industry. The energy sector remained the central magnet for foreign investment. Key projects like the Yamal LNG project and the Arctic LNG-2, along with the Power of Siberia pipeline, received significant foreign capital, particularly from China. China's willingness to provide financing and essential deep drilling equipment helped Russia mitigate the effects of sanctions-related technology restrictions from the West. In addition to energy, the defense industry was a strategically critical sector, accounting for 20% of all manufacturing jobs. While not a primary recipient of foreign capital, the industry's sustained government support, even for unprofitable enterprises, laid the groundwork for the rapid military production ramp-up that would follow the 2022 invasion.</p>
+                   <div class="chart-container w-full max-w-4xl mx-auto h-96">
+                       <canvas id="preWarFDIChart"></canvas>
+                   </div>
+                </div>
+           </div>
+       </div>
+      
+       <div id="post-invasion" class="content-section hidden">
+           <div class="flex space-x-4 mb-6 justify-center">
+               <button class="text-lg py-2 px-4 tab-button active" data-category="post-trade-policies">Trade Policies</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="post-ideology">Ideology</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="post-investment">Investment</button>
+           </div>
+          
+           <div id="post-trade-policies" class="category-content">
+               <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 2.1: Trade Policies: Sanctions, Diversion, and Circumvention</h3>
+                   <p class="text-sm text-gray-700 mb-6">Russia's full-scale invasion of Ukraine in February 2022 was met with a sanctions regime of unprecedented scale and scope. The European Union adopted 16 successive packages of sanctions targeting the financial, energy, transport, technology, and airspace sectors. These measures, imposed in close cooperation with the United States, the United Kingdom, Canada, Australia, and Japan, included the freezing of an estimated 300 billion US dollars in Russian central bank assets and the denial of most-favored-nation treatment for Russian products. Export and import restrictions covered over 50% of the pre-war trade between the EU and Russia, with a ban on seaborne imports of Russian crude oil and subsequent embargoes on refined oil products. The EU's trade with Russia plummeted, with exports falling from €99.0 billion in 2021 to €31.5 billion by 2024. In response, Russia executed a rapid and large-scale trade reorientation. The "Pivot to the East" transformed from a long-term strategy into an urgent operational necessity. Russia successfully redirected its energy exports to non-sanctioning countries, with bilateral trade with China surging from 147 billion US dollars in 2021 to 240 billion US dollars in 2023. Russia also significantly increased its fossil fuel exports to India and Turkey, weakening the intended impact of the sanctions. This shift was facilitated by a variety of circumvention tactics, most notably the use of a "shadow fleet" of tankers to transport oil outside the Western price cap regime. The sanctions regime, while severe, was undermined by a critical asymmetry. While exports from sanctioning countries to Russia decreased by 40-80% in 2022, imports from Russia to these same countries only fell by a modest 8.1%. This strategic imbalance allowed Russia to continue earning massive revenues from its energy exports at a time of skyrocketing global prices, effectively stabilizing its economy and providing a substantial budget for the war effort. The fact that many of the world's major economies, including China, India, and Brazil, did not join the sanctions regime further enabled Russia to reroute its trade flows and weaken the collective pressure from the West.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                       <div class="flex flex-col items-center">
+                           <h4 class="text-xl font-semibold mb-4 text-[#253959]">Shift in Export Destinations: 2021 vs. 2024</h4>
+                           <p class="text-sm text-gray-600 text-center mb-4">Russia successfully rerouted its export flows, with China and India becoming primary partners. This chart visualizes the dramatic shift away from Europe.</p>
+                           <div class="chart-container w-full max-w-xl mx-auto">
+                               <canvas id="postWarExportShiftChart"></canvas>
+                           </div>
+                       </div>
+                       <div class="flex flex-col items-center">
+                           <h4 class="text-xl font-semibold mb-4 text-[#253959]">Shift in Import Origins: 2021 vs. 2024</h4>
+                           <p class="text-sm text-gray-600 text-center mb-4">Russia has been forced to substitute Western imports with goods from Asia, relying on China for technology and parallel imports.</p>
+                           <div class="chart-container w-full max-w-xl mx-auto">
+                               <canvas id="postWarImportShiftChart"></canvas>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+          
+           <div id="post-ideology" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 2.2: Ideological and Economic Adaptation</h3>
+                   <p class="text-sm text-gray-700 mb-6">Russia's economic resilience was not an accident but the direct result of a decade-long, ideologically driven "Fortress Russia" strategy. This policy, implemented in earnest after 2014, focused on deleveraging, accumulating massive financial reserves, and minimizing reliance on foreign financing. By February 2022, the Central Bank of Russia had amassed over 600 billion US dollars in foreign exchange reserves, and public debt was held below 20% of GDP. These financial buffers, coupled with current account surpluses, cushioned the economy from the initial shock of sanctions and allowed for a swift and unexpected recovery. The weaponization of the US dollar and the freezing of Russian sovereign assets prompted an aggressive de-dollarization initiative. Russia's policy shifted toward settling trade in national currencies, with the combined share of "unfriendly" currencies in its trade settlements plummeting from 87% to just 18% for exports between January 2022 and December 2024. The Chinese yuan and the ruble have become the primary mediums for trade with non-Western partners, a strategy aimed at building a parallel financial system insulated from Western sanctions. Russia's economic model has also been transformed into a "war economy," with military expenditure becoming the primary driver of growth. Military spending reached 7.5% of GDP in 2023 and is projected to rise to 9.2% in 2025, the highest since the Cold War. This heavy government spending has spurred an industrial boom and a "revolution of salaries" in the military-industrial complex, which has in turn stimulated broader domestic consumption and private sector activity.</p>
+                </div>
+           </div>
+          
+           <div id="post-investment" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 2.3: Investment and Sectoral Shifts</h3>
+                   <p class="text-sm text-gray-700 mb-6">Foreign direct investment (FDI) in Russia collapsed following the full-scale invasion. The data indicates that FDI net flows hit a record low of -21.9 billion US dollars in March 2022, as foreign companies exited the Russian market en masse. This withdrawal, which in many cases involved significant write-offs, was particularly pronounced in the oil, gas, and automotive sectors. While foreign investment evaporated, domestic and state-driven investment surged, fueled by the reorientation of the economy toward military production. As noted above, defense spending as a percentage of GDP rose dramatically from 2.8% pre-war to 7.5% in 2023. The government's prioritization of the military has led to a major increase in the production of tanks, artillery, and drones, which has sustained economic growth and employment. However, this military-driven economic model has come at a significant cost to the civilian economy. The automotive industry serves as a clear illustration of the limitations of Russia's import substitution policy. Having lost access to Western technology and investment, the domestic auto industry is in a state of "technological stagnation". The average age of passenger cars on Russian roads has risen from 14 to 16 years, and the country has become dependent on imports of used vehicles from Asian markets like Japan and South Korea. The government's own attempts at local production, such as the new Moskvich model, have been market failures, highlighting the difficulty of achieving true industrial sovereignty without access to foreign technology and capital. This divergence between the thriving military sector and the struggling civilian economy reveals a crucial vulnerability. The short-term economic resilience, driven by state spending and the reallocation of resources, is creating long-term structural problems. The economy has reached a state of "full employment," with a severe labor shortage exacerbated by emigration and military recruitment. This imbalance, combined with a significant contraction in non-military sectors and a projected slowdown in GDP growth for 2025 and 2026, points to a potential "stagnation trap, reminiscent of Soviet-era decline," where high inflation and low growth become the new normal. The economic boom is faltering, and the country is facing a long-term trade-off between guns and butter.</p>
+                   <div class="chart-container w-full max-w-4xl mx-auto h-96">
+                       <canvas id="postWarInvestmentChart"></canvas>
+                   </div>
+                </div>
+           </div>
+       </div>
+      
+       <div id="future-outlook" class="content-section hidden">
+           <div class="flex space-x-4 mb-6 justify-center">
+               <button class="text-lg py-2 px-4 tab-button active" data-category="future-trade-policies">Trade Policies</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="future-ideology">Ideology</button>
+               <button class="text-lg py-2 px-4 tab-button" data-category="future-investment">Investment</button>
+           </div>
+          
+           <div id="future-trade-policies" class="category-content">
+               <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 3.1: Future Trade Policies: A New Multipolar Order in Formation</h3>
+                   <p class="text-sm text-gray-700 mb-6">The future of Russia's trade policy will be defined by the permanence of its break with the West and its continued commitment to building a new, non-Western-centric global order. Russia will seek to solidify its new partnerships with the EAEU, the Shanghai Cooperation Organisation (SCO), and the expanded BRICS+ group. Strategic infrastructure projects like the North-South Corridor and the Northern Sea Route will be prioritized to create alternative trade routes that bypass Europe entirely. However, the most significant feature of this new era is Russia's deepening dependency on China. While the Russian government's ideological vision, as outlined in the Primakov doctrine, seeks a multipolar world where Russia is a powerful and independent actor, the reality of its post-2022 trade reorientation presents a different picture. The partnership has evolved into a "symbiotic but highly asymmetrical" relationship. Russia has become an "essential" partner for China, but Russia itself is a "relatively unimportant market" for China, which is wary of exposing its businesses to Western secondary sanctions. This creates a new and potentially perilous asymmetric dependency, with Russia shifting from a critical energy supplier to Europe to a "raw materials appendage" and a "junior, dependent partner" to China. In a move to increase its global influence and counter perceived Western hegemony, Russia will continue to use a "Soviet playbook" to court countries in the Global South. This strategy, aimed at the "de-Westernization of the global order," leverages historical anti-colonial grievances and offers military, technical, and energy cooperation to nations in Latin America and Africa.</p>
+               </div>
+           </div>
+          
+           <div id="future-ideology" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 3.2: Ideological Vision: The Long-Term Fortress Model</h3>
+                   <p class="text-sm text-gray-700 mb-6">The "Fortress Russia" model, while effective in the short term, faces a precarious long-term outlook. The economy is showing clear signs of overheating, with high inflation and a severe labor shortage. Projected GDP growth for 2025 is expected to slow to a modest 1-2%, and the IMF projects a further deceleration to 1.2% by 2026. This suggests Russia is entering a period of stagflation, where its war-driven economic stimulus has reached its supply-side limits. Further government spending will likely serve only to exacerbate inflation and strain the national budget, which is already running a significant deficit. Russia's policy of "technological and industrial sovereignty" is another long-term ideological goal that will face significant constraints. The country's industrial base is fundamentally weak, and its attempts at import substitution are hampered by a lack of access to critical foreign technology. As a result, Russia will likely rely on a strategy of parallel imports and increased cooperation with non-Western partners, particularly China, to sustain its non-military industries. This reliance on foreign suppliers for technology reinforces the asymmetric relationship with China and complicates Russia's pursuit of true self-sufficiency. Beyond the economic sphere, the long-term costs of the "Fortress Russia" model will be a significant drag on the economy. High military spending crowds out investment in civilian sectors, with healthcare facing a 3% budget cut in 2025. The social costs of caring for a large number of veterans will place a "huge long-term drag" on the economy. This "guns versus butter" trade-off will create increasing policy challenges and pressures on the Kremlin, potentially leading to social and economic instability.</p>
+                    <div class="chart-container w-full max-w-4xl mx-auto h-96">
+                       <canvas id="futureProjectionChart"></canvas>
+                   </div>
+                </div>
+           </div>
+          
+           <div id="future-investment" class="category-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                   <h3 class="text-2xl font-semibold mb-4 text-[#253959]">Section 3.3: Investment Projections and Strategic Risks</h3>
+                   <p class="text-sm text-gray-700 mb-6">The future of investment in Russia will continue to be bifurcated, with domestic and state-driven investment flowing almost exclusively to the military-industrial complex, while foreign investment remains at historic lows. Defense spending is projected to remain high at 7.2% of GDP in 2025, and the government's focus on technological sovereignty will be channeled into this sector to ensure the continued production of military hardware. This will come at the expense of capital investment in civilian industries and public services, further entrenching the current economic imbalances. The energy sector, while remaining the backbone of the economy, faces a difficult long-term future. The loss of the European market has forced a strategic shift to Asia, but this is a path fraught with logistical and infrastructural challenges. The lack of pipeline capacity to Asia and the postponement of new offshore development projects until 2030-2035 due to technology sanctions will limit Russia's ability to fully compensate for its lost European revenues. This reality, coupled with declining global oil prices, will continue to strain the federal budget and create fiscal pressure.</p>
+                </div>
+           </div>
+       </div>
+      
+       <section id="conclusions" class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6">
+               <h2 class="text-2xl md:text-3xl font-bold text-[#482B34] border-b-4 border-[#FFAD69] pb-2 mb-4">Conclusions and Strategic Recommendations</h2>
+               <p class="text-sm text-gray-700 mb-6">Russia's economic policies have been defined by a strategic evolution from a European-integrated model to a state-driven, security-focused "Fortress Economy." While this model has demonstrated remarkable resilience in the face of unprecedented sanctions, it is ultimately unsustainable. The war-driven growth is reaching its supply-side limits, and the long-term structural costs, including an asymmetric dependency on China and the neglect of civilian sectors, pose a significant and growing threat to the country's long-term stability and strength. Based on this strategic assessment, the following recommendations are presented:</p>
+               <ul class="list-disc pl-5 space-y-3 mt-4">
+                   <li class="text-sm text-gray-700"><strong>Exploit Asymmetric Dependencies:</strong> The current economic model is increasingly reliant on a small number of partners, primarily China. Future policy should aim to exploit the inherent tensions and asymmetric nature of this relationship.</li>
+                   <li class="text-sm text-gray-700"><strong>Target Structural Weaknesses:</strong> The current sanctions regime has failed to halt Russia's primary revenue streams but has created significant internal imbalances. Future sanctions and policies should be designed to target these structural weaknesses, such as labor shortages, technological stagnation, and fiscal deficits. A possible measure to consider is a broad-based tariff on Russian exports, with the proceeds funneled to Ukraine, which could increase fiscal pressure on the Kremlin without risking a supply shock to Western markets.</li>
+                   <li class="text-sm text-gray-700"><strong>Capitalize on a Global Rift:</strong> Russia's ideological and economic pivot to the Global South is a long-term effort to challenge the Western-led order. An understanding of the political and economic levers Russia is using in these regions is critical to countering its influence and mitigating the risks it poses to global stability.</li>
+               </ul>
+           </div>
+       </section>
+      
+   </main>
+
+
+   <footer class="header-bg text-white mt-12 p-4 text-center">
+       <p class="text-sm opacity-80">&copy; 2025 Intelligence Directorate. This document is for internal use only.</p>
+   </footer>
+
+
+   <script>
+       const chartColors = ['#FE5F55', '#FFAD69', '#F7D351', '#778A35', '#253959', '#482B34'];
+
+
+       const wrapLabel = (str, maxWidth) => {
+           if (str.length <= maxWidth) return str;
+           const words = str.split(' ');
+           let lines = [];
+           let currentLine = words[0];
+           for (let i = 1; i < words.length; i++) {
+               if ((currentLine + ' ' + words[i]).length > maxWidth) {
+                   lines.push(currentLine);
+                   currentLine = words[i];
+               } else {
+                   currentLine += ' ' + words[i];
+               }
+           }
+           lines.push(currentLine);
+           return lines;
+       };
+
+
+       const chartOptions = {
+           responsive: true,
+           maintainAspectRatio: false,
+           plugins: {
+               legend: {
+                   labels: {
+                       color: '#482B34'
+                   }
+               },
+               tooltip: {
+                   callbacks: {
+                       title: function(tooltipItems) {
+                           const item = tooltipItems[0];
+                           let label = item.chart.data.labels[item.dataIndex];
+                           if (Array.isArray(label)) {
+                               return label.join(' ');
+                           } else {
+                               return label;
+                           }
+                       }
+                   }
+               }
+           },
+           scales: {
+               y: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } },
+               x: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } }
+           }
+       };
+
+
+       const preWarExportData = document.getElementById('preWarExportShareChart');
+       if (preWarExportData) {
+           new Chart(preWarExportData, {
+               type: 'doughnut',
+               data: {
+                   labels: ['European Union', 'China', 'Other CIS Countries', 'Other'],
+                   datasets: [{
+                       label: 'Export Share by Partner',
+                       data: [45, 13, 11, 31],
+                       backgroundColor: [chartColors[4], chartColors[3], chartColors[2], chartColors[1]],
+                       borderColor: '#ffffff',
+                       borderWidth: 2
+                   }]
+               },
+               options: {
+                   responsive: true,
+                   maintainAspectRatio: false,
+                   plugins: {
+                       tooltip: chartOptions.plugins.tooltip,
+                       legend: { position: 'right', labels: { color: '#482B34' } }
+                   }
+               }
+           });
+       }
+      
+       const preWarImportData = document.getElementById('preWarImportCategoryChart');
+       if (preWarImportData) {
+            new Chart(preWarImportData, {
+               type: 'bar',
+               data: {
+                   labels: [
+                       wrapLabel('Machinery & Transport Equipment', 16),
+                       'Chemicals',
+                       'Food & Raw Materials',
+                       'Consumer Goods',
+                       'Other'
+                   ],
+                   datasets: [{
+                       label: 'Import Composition',
+                       data: [42, 18, 15, 12, 13],
+                       backgroundColor: chartColors[0],
+                       borderColor: '#ffffff',
+                       borderWidth: 1
+                   }]
+               },
+               options: {
+                   indexAxis: 'y',
+                   responsive: true,
+                   maintainAspectRatio: false,
+                   plugins: {
+                       tooltip: chartOptions.plugins.tooltip,
+                       legend: { display: false }
+                   },
+                   scales: {
+                        x: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } },
+                        y: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } }
+                   }
+               }
+            });
+       }
+      
+       const preWarFDIChart = document.getElementById('preWarFDIChart');
+       if(preWarFDIChart) {
+           new Chart(preWarFDIChart, {
+               type: 'line',
+               data: {
+                   labels: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+                   datasets: [{
+                       label: wrapLabel('Inward FDI Net Flows (USD billions)', 16),
+                       data: [40.1, 22.1, 6.9, 10.2, 23.4, 8.8, 28.9, 9.4, 38.0],
+                       borderColor: chartColors[4],
+                       backgroundColor: chartColors[4],
+                       tension: 0.3,
+                       fill: false
+                   }]
+               },
+               options: {
+                   ...chartOptions,
+                   plugins: {
+                       ...chartOptions.plugins,
+                       legend: { display: false }
+                   },
+                   scales: {
+                        y: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } },
+                        x: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } }
+                   }
+               }
+           });
+       }
+
+
+       const postWarExportShiftChart = document.getElementById('postWarExportShiftChart');
+       if (postWarExportShiftChart) {
+           new Chart(postWarExportShiftChart, {
+               type: 'bar',
+               data: {
+                   labels: ['European Union', 'China', 'India', 'Turkey', 'Other'],
+                   datasets: [
+                       {
+                           label: '2021 (%)',
+                           data: [45, 13, 3, 5, 34],
+                           backgroundColor: chartColors[3],
+                       },
+                       {
+                           label: '2024 (%)',
+                           data: [10, 32, 18, 6, 34],
+                           backgroundColor: chartColors[0],
+                       }
+                   ]
+               },
+               options: {
+                   ...chartOptions,
+                   scales: {
+                       x: { stacked: true, ticks: { color: '#482B34' } },
+                       y: { stacked: true, ticks: { color: '#482B34' } }
+                   }
+               }
+           });
+       }
+
+
+       const postWarImportShiftChart = document.getElementById('postWarImportShiftChart');
+       if (postWarImportShiftChart) {
+           new Chart(postWarImportShiftChart, {
+               type: 'bar',
+               data: {
+                   labels: ['European Union', 'China', 'Turkey', 'Other'],
+                   datasets: [
+                       {
+                           label: '2021 (%)',
+                           data: [40, 24, 7, 29],
+                           backgroundColor: chartColors[4],
+                       },
+                       {
+                           label: '2024 (%)',
+                           data: [15, 45, 9, 31],
+                           backgroundColor: chartColors[1],
+                       }
+                   ]
+               },
+               options: {
+                   ...chartOptions,
+                   scales: {
+                       x: { stacked: true, ticks: { color: '#482B34' } },
+                       y: { stacked: true, ticks: { color: '#482B34' } }
+                   }
+               }
+           });
+       }
+
+
+       const postWarInvestmentChart = document.getElementById('postWarInvestmentChart');
+       if (postWarInvestmentChart) {
+            new Chart(postWarInvestmentChart, {
+               type: 'bar',
+               data: {
+                   labels: [
+                       wrapLabel('Military-Industrial Complex', 16),
+                       'State Budget',
+                       'Infrastructure',
+                       wrapLabel('Civilian Sector', 16)
+                   ],
+                   datasets: [{
+                       label: 'Change in State Spending (Index, 2021=100)',
+                       data: [250, 180, 110, 80],
+                       backgroundColor: [chartColors[0], chartColors[1], chartColors[2], chartColors[3]],
+                       borderColor: '#ffffff',
+                       borderWidth: 1
+                   }]
+               },
+               options: {
+                   indexAxis: 'y',
+                   responsive: true,
+                   maintainAspectRatio: false,
+                   plugins: {
+                       tooltip: chartOptions.plugins.tooltip,
+                       legend: { display: false }
+                   },
+                   scales: {
+                        x: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } },
+                        y: { ticks: { color: '#482B34' }, grid: { color: '#00000010' } }
+                   }
+               }
+            });
+       }
+
+
+       const futureProjectionChart = document.getElementById('futureProjectionChart');
+       if (futureProjectionChart) {
+           new Chart(futureProjectionChart, {
+               type: 'line',
+               data: {
+                   labels: ['2024', '2025', '2026', '2027'],
+                   datasets: [
+                       {
+                           label: 'GDP Growth (%)',
+                           data: [2.5, 1.8, 1.2, 0.9],
+                           borderColor: chartColors[4],
+                           backgroundColor: chartColors[4],
+                           fill: false,
+                           tension: 0.3
+                       },
+                       {
+                           label: 'Inflation Rate (%)',
+                           data: [7.8, 8.5, 7.9, 7.5],
+                           borderColor: chartColors[0],
+                           backgroundColor: chartColors[0],
+                           fill: false,
+                           tension: 0.3
+                       }
+                   ]
+               },
+               options: {
+                   ...chartOptions,
+                   scales: {
+                       y: {
+                           ticks: { color: '#482B34' },
+                           grid: { color: '#00000010' },
+                           title: { display: true, text: '%', color: '#482B34' }
+                       },
+                       x: {
+                           ticks: { color: '#482B34' },
+                           grid: { color: '#00000010' }
+                       }
+                   }
+               }
+           });
+       }
+      
+       function showSection(sectionId) {
+           const sections = document.querySelectorAll('.content-section');
+           sections.forEach(section => section.classList.add('hidden'));
+           document.getElementById(sectionId).classList.remove('hidden');
+
+
+           const buttons = document.querySelectorAll('.main-tab-button');
+           buttons.forEach(button => button.classList.remove('active', 'bg-[#482B34]', 'text-white'));
+           const activeButton = document.querySelector(`.main-tab-button[data-target="${sectionId}"]`);
+           if (activeButton) {
+               activeButton.classList.add('active', 'bg-[#482B34]', 'text-white');
+           }
+       }
+      
+       function showCategory(sectionId, categoryId) {
+           const categories = document.querySelectorAll(`#${sectionId} .category-content`);
+           categories.forEach(category => category.classList.add('hidden'));
+           document.getElementById(categoryId).classList.remove('hidden');
+
+
+           const buttons = document.querySelectorAll(`#${sectionId} .tab-button`);
+           buttons.forEach(button => button.classList.remove('active'));
+           const activeButton = document.querySelector(`#${sectionId} .tab-button[data-category="${categoryId}"]`);
+           if (activeButton) {
+               activeButton.classList.add('active');
+           }
+       }
+
+
+       document.addEventListener('DOMContentLoaded', () => {
+           document.querySelectorAll('.main-tab-button').forEach(button => {
+               button.addEventListener('click', () => {
+                   const targetId = button.getAttribute('data-target');
+                   showSection(targetId);
+                   const firstCategory = document.querySelector(`#${targetId} .tab-button`);
+                   if (firstCategory) {
+                       showCategory(targetId, firstCategory.getAttribute('data-category'));
+                   }
+               });
+           });
+
+
+           document.querySelectorAll('.tab-button').forEach(button => {
+               button.addEventListener('click', () => {
+                   const sectionId = button.closest('.content-section').id;
+                   const categoryId = button.getAttribute('data-category');
+                   showCategory(sectionId, categoryId);
+               });
+           });
+          
+           showSection('pre-invasion');
+           showCategory('pre-invasion', 'pre-trade-policies');
+       });
+   </script>
+</body>
+</html>
+
+
+
